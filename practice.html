@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="practice.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="column">
+        <h3 class="home">HOME</h3>
+        <h2 class="score" id="home-score">0</h2>
+        <div class="button">
+            <button id="home-score-1" onclick="addOne()">+1</button>
+            <button id="home-score-2" onclick="addTwo()">+2</button>
+            <button id="home-score-3" onclick="addThree()">+3</button>
+        </div>
+    </div>
+    <div class="column">
+        <h3 class="home">GUEST</h3>
+        <h2 class="score" id="guest-score">0</h2>
+        <div class="button">
+            <button id="guest-score-1" onclick="increaseOne()">+1</button>
+            <button id="guest-score-2" onclick="increaseTwo()">+2</button>
+            <button id="guest-score-3" onclick="increaseThree()">+3</button>
+        </div>
+    </div>
+    </div>
+    <div id="reseted">
+        <button id="reset" onclick="reset()">Reset</button>
+    </div>
+    <script src="practice.js"></script>
+</body>
+</html>
